@@ -1,0 +1,36 @@
+p {
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h3 {
+    margin-top: 5px;
+}
+
+.current-news-flex {
+    display: flex;
+    height: 350px;
+    border-width: 3px;
+    border-color: black;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    justify-content: center;
+}
+
+.current-news-box {
+    display: flex;
+    border-width: 3px;
+    background-color: rgb(235, 230, 230);
+    border-color: black;
+    border-style: solid;
+    flex-direction: column;
+    height: 350px;
+    width: 350px;
+    margin-right: 50px;
+}
+
+.current-news-image {
+    height: 200px;
+}
+

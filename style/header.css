@@ -1,0 +1,61 @@
+.header a {
+    color: white;
+    
+}
+
+.header a:hover {
+    color: #9eb2ca;
+    transition: .15s;
+}
+
+.header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    background-color: #BA0C2F;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 200px;
+    margin: -8px -8px 0 -8px;
+    border-bottom-color: black;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+.top-logo {
+    height: 200px;
+    vertical-align: top;
+    position: absolute;
+}
+
+.nav {
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    height: 50px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    display: flex;
+    flex-shrink: 1;
+}
+
+.home-button,
+.events-button,
+.contact-us-button,
+.officers-button,
+.donate-button {
+    text-decoration: underline;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.home-button {
+    color: #C8D8EB;
+}
+
+.events-button:active {
+    color: #9eb2ca;
+}
